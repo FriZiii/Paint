@@ -13,6 +13,5 @@ class ColorPicker
 public:
 	ColorPicker(sf::Vector2f position, int i);
 	void Draw(sf::RenderWindow & window){ window.draw(body); }
-	sf::Color GetColor(sf::RenderWindow& window);
 };
 

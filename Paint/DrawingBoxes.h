@@ -11,6 +11,6 @@ class DrawingBoxes
 public:
 	DrawingBoxes(sf::Vector2f position);
 	void Draw(sf::RenderWindow &window);
-	void Update(sf::RenderWindow& window, sf::Color color);
+	void Update(sf::RenderWindow& window);
 };
 

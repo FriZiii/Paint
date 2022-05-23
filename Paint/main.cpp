@@ -20,7 +20,7 @@ int main()
         for (int j = 0; j < 192; j++)
         {
             sf::Vector2f position(0.0f + j*10, 0.0f + i*10);
-            drawingboxes.push_back(DrawingBoxes(position , palette.GetColor(window)));
+            drawingboxes.push_back(DrawingBoxes(position));
         }
     }
 
@@ -34,7 +34,7 @@ int main()
         }
         //Update
         for (DrawingBoxes& drawingboxes : drawingboxes)
-            drawingboxes.Update(window, palette.GetColor(window));
+            drawingboxes.Update(window);
 
         //Draw
         window.clear();

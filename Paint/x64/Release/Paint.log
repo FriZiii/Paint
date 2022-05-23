@@ -1,9 +1,9 @@
-﻿  main.cpp
-E:\Paint\Paint\Paint\main.cpp(23,84): error C2440: "<function-style-cast>": nie można konwertować z "initializer list" na "DrawingBoxes"
-E:\Paint\Paint\Paint\main.cpp(23,84): message : Żaden konstruktor nie mógł przyjąć typu źródłowego lub rozpoznanie przeciążenia konstruktora było niejednoznaczne
+﻿  ColorPicker.cpp
   Palette.cpp
-E:\Paint\Paint\Paint\Palette.cpp(13,29): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
-          with
-          [
-              T=float
-          ]
+  main.cpp
+  Trwa generowanie kodu
+  2 of 85 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  Paint.vcxproj -> E:\Paint\Paint\x64\Release\Paint.exe

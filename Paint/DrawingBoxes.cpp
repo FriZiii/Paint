@@ -17,7 +17,7 @@ void DrawingBoxes::Draw(sf::RenderWindow& window)
 	window.draw(body);
 }
 
-void DrawingBoxes::Update(sf::RenderWindow& window, sf::Color color)
+void DrawingBoxes::Update(sf::RenderWindow& window)
 {
 	if (sf::Mouse::getPosition(window).x > body.getGlobalBounds().left && sf::Mouse::getPosition(window).x < (body.getGlobalBounds().left + body.getGlobalBounds().width) && sf::Mouse::getPosition(window).y > body.getGlobalBounds().top && sf::Mouse::getPosition(window).y < (body.getGlobalBounds().top + body.getGlobalBounds().height))
 	{
