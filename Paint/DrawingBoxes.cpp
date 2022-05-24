@@ -17,7 +17,7 @@ void DrawingBoxes::Draw(sf::RenderWindow& window)
 	window.draw(body);
 }
 
-void DrawingBoxes::Update(sf::RenderWindow& window)
+void DrawingBoxes::Update(sf::RenderWindow& window, int k)
 {
 	if (sf::Mouse::getPosition(window).x > body.getGlobalBounds().left && sf::Mouse::getPosition(window).x < (body.getGlobalBounds().left + body.getGlobalBounds().width) && sf::Mouse::getPosition(window).y > body.getGlobalBounds().top && sf::Mouse::getPosition(window).y < (body.getGlobalBounds().top + body.getGlobalBounds().height))
 	{
@@ -31,8 +31,9 @@ void DrawingBoxes::Update(sf::RenderWindow& window)
 	{
 		body.setFillColor(sf::Color::White);
 	}
+
 	if (isClicked)
 	{
-		body.setFillColor(color);
+		this->body.setFillColor(colors[k]);
 	}
 }

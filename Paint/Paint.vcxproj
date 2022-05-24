@@ -151,15 +151,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ColorPicker.cpp" />
+    <ClCompile Include="ColorsPalett.cpp" />
     <ClCompile Include="DrawingBoxes.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Palette.cpp" />
+    <ClCompile Include="LeftBar.cpp" />
+    <ClCompile Include="TopBar.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ColorPicker.h" />
+    <ClInclude Include="ColorsPalett.h" />
     <ClInclude Include="DrawingBoxes.h" />
-    <ClInclude Include="Palette.h" />
+    <ClInclude Include="LeftBar.h" />
+    <ClInclude Include="TopBar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
