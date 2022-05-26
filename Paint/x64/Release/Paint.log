@@ -1,7 +1,23 @@
-﻿  DrawingBoxes.cpp
+﻿  ColorsPalett.cpp
+  DrawingBoxes.cpp
+  main.cpp
+D:\Paint\Paint\main.cpp(29,50): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+D:\Paint\Paint\main.cpp(29,37): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+  LeftBar.cpp
+  TopBar.cpp
   Trwa generowanie kodu
-  0 of 139 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+D:\Paint\Paint\DrawingBoxes.cpp(55): warning C4715: "DrawingBoxes::isPressed”: niewszystkie ścieżki kodu zwracają wartość
+D:\Paint\Paint\ColorsPalett.cpp(22): warning C4715: "ColorsPalett::getColor”: niewszystkie ścieżki kodu zwracają wartość
+  136 of 140 functions (97.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
-  Paint.vcxproj -> E:\Paint\Paint\x64\Release\Paint.exe
+  Paint.vcxproj -> D:\Paint\x64\Release\Paint.exe

@@ -19,10 +19,10 @@ class DrawingBoxes
 		sf::Color /*black*/(0, 0, 0),      sf::Color /*white*/(255, 255, 255),
 	};
 
-
 public:
 	DrawingBoxes(sf::Vector2f position);
 	void Draw(sf::RenderWindow &window);
 	void Update(sf::RenderWindow& window, int k);
+	bool isPressed(sf::RenderWindow& window);
 };
 

@@ -60,7 +60,9 @@ int main()
                 color = colorspalett.getColor(window);
         }
 
+
         for (DrawingBoxes& drawingboxes : drawingboxes)
+            if(drawingboxes.isPressed(window))
                 drawingboxes.Update(window, color);
 
         //Draw

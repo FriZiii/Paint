@@ -37,3 +37,19 @@ void DrawingBoxes::Update(sf::RenderWindow& window, int k)
 		this->body.setFillColor(colors[k]);
 	}
 }
+
+bool DrawingBoxes::isPressed(sf::RenderWindow& window)
+{
+	if (sf::Mouse::getPosition(window).x > body.getGlobalBounds().left && sf::Mouse::getPosition(window).x < (body.getGlobalBounds().left + body.getGlobalBounds().width) && sf::Mouse::getPosition(window).y > body.getGlobalBounds().top && sf::Mouse::getPosition(window).y < (body.getGlobalBounds().top + body.getGlobalBounds().height))
+	{
+		if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+		{
+			return true;
+		}
+	}
+	else
+	{
+		return false;
+	}
+
+}
